@@ -1,0 +1,300 @@
+02 Nov 2020 | 09:39:23,172 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 09:39:23,174 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 09:39:23,175 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 09:39:23,177 | INFO  | main | bootLogger |     | Network Info:
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:40ff:fe7a:9955%br-afa169176c3e
+		 ->172.18.0.1
+	Card: docker0
+		 ->172.17.0.1
+	Card: wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:40ea:173d:825f:7b9e%wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 09:39:23,189 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@a0db585
+02 Nov 2020 | 09:39:23,203 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 09:39:23,211 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 09:39:23,214 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 09:39:23,224 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 09:39:23,227 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 09:39:23,230 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 09:39:23,230 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 09:39:23,231 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 09:39:23,231 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 09:39:23,233 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 09:39:23,234 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 09:39:23,237 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 09:39:23,238 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@24db6ce
+02 Nov 2020 | 09:39:23,238 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 09:39:23,238 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 09:39:23,238 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+02 Nov 2020 | 09:56:36,849 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 09:56:36,851 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 09:56:36,853 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 09:56:36,854 | INFO  | main | bootLogger |     | Network Info:
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:40ff:fe7a:9955%br-afa169176c3e
+		 ->172.18.0.1
+	Card: docker0
+		 ->172.17.0.1
+	Card: wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:40ea:173d:825f:7b9e%wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 09:56:36,862 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@7fd26ad8
+02 Nov 2020 | 09:56:36,885 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 09:56:36,893 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 09:56:36,897 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 09:56:36,909 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 09:56:36,918 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 09:56:36,919 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 09:56:36,919 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 09:56:36,919 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 09:56:36,919 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 09:56:36,920 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 09:56:36,921 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 09:56:36,926 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 09:56:36,926 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@44b18fe4
+02 Nov 2020 | 09:56:36,926 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 09:56:36,930 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 09:56:36,930 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+02 Nov 2020 | 10:35:06,041 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 10:35:06,043 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 10:35:06,045 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 10:35:06,047 | INFO  | main | bootLogger |     | Network Info:
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:40ff:fe7a:9955%br-afa169176c3e
+		 ->172.18.0.1
+	Card: docker0
+		 ->172.17.0.1
+	Card: wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:40ea:173d:825f:7b9e%wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 10:35:06,053 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@14b0e127
+02 Nov 2020 | 10:35:06,065 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 10:35:06,074 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 10:35:06,078 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 10:35:06,091 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 10:35:06,110 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 10:35:06,112 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 10:35:06,112 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 10:35:06,112 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 10:35:06,112 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 10:35:06,121 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 10:35:06,123 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 10:35:06,126 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 10:35:06,130 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@4d3ca6c7
+02 Nov 2020 | 10:35:06,130 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 10:35:06,131 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 10:35:06,131 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+02 Nov 2020 | 12:18:11,826 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 12:18:11,827 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 12:18:11,829 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 12:18:11,830 | INFO  | main | bootLogger |     | Network Info:
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:40ff:fe7a:9955%br-afa169176c3e
+		 ->172.18.0.1
+	Card: docker0
+		 ->172.17.0.1
+	Card: wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:40ea:173d:825f:7b9e%wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 12:18:11,837 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@10823d72
+02 Nov 2020 | 12:18:11,848 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 12:18:11,855 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 12:18:11,859 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 12:18:11,871 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 12:18:11,879 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 12:18:11,879 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 12:18:11,879 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 12:18:11,880 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 12:18:11,880 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 12:18:11,882 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 12:18:11,883 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 12:18:11,889 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 12:18:11,890 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@22e5f96e
+02 Nov 2020 | 12:18:11,890 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 12:18:11,890 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 12:18:11,891 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+02 Nov 2020 | 15:33:55,256 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 15:33:55,258 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 15:33:55,259 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 15:33:55,260 | INFO  | main | bootLogger |     | Network Info:
+	Card: docker0
+		 ->172.17.0.1
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:e2ff:fe39:83f8%br-afa169176c3e
+		 ->172.18.0.1
+	Card: wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:e9aa:32f:8ccd:7507%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 15:33:55,265 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@10823d72
+02 Nov 2020 | 15:33:55,276 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 15:33:55,282 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 15:33:55,288 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 15:33:55,297 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 15:33:55,303 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 15:33:55,304 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 15:33:55,304 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 15:33:55,304 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 15:33:55,305 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 15:33:55,305 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 15:33:55,306 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 15:33:55,309 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 15:33:55,309 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@22e5f96e
+02 Nov 2020 | 15:33:55,309 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 15:33:55,311 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 15:33:55,311 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+02 Nov 2020 | 16:46:01,417 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+02 Nov 2020 | 16:46:01,419 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.60.0 { main }
+02 Nov 2020 | 16:46:01,420 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1795MB
+	os.name: Linux
+	os.arch: amd64
+	os.version: 5.4.0-52-generic
+	java.version: 1.8.0_222
+	java.vendor: AdoptOpenJDK
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.222-b10
+	java.vm.vendor: AdoptOpenJDK
+	java.vm.name: OpenJDK 64-Bit Server VM
+	java.io.tmpdir: /tmp
+	Default charset: UTF-8
+
+02 Nov 2020 | 16:46:01,421 | INFO  | main | bootLogger |     | Network Info:
+	Card: docker0
+		 ->172.17.0.1
+	Card: br-afa169176c3e
+		 ->fe80:0:0:0:42:e2ff:fe39:83f8%br-afa169176c3e
+		 ->172.18.0.1
+	Card: wlp2s0
+		 ->fe80:0:0:0:4f64:350e:7df8:8b3b%wlp2s0
+		 ->2409:4072:6180:9289:cc4b:a457:1d3d:6203%wlp2s0
+		 ->2409:4072:6180:9289:e9aa:32f:8ccd:7507%wlp2s0
+		 ->172.20.10.2
+	Card: lo
+		 ->0:0:0:0:0:0:0:1%lo
+		 ->127.0.0.1
+
+02 Nov 2020 | 16:46:01,426 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@7cea0110
+02 Nov 2020 | 16:46:01,436 | INFO  | main | bootLogger |     | TCP Selector opened
+02 Nov 2020 | 16:46:01,441 | INFO  | main | bootLogger |     | UDP Selector opened
+02 Nov 2020 | 16:46:01,444 | INFO  | main | bootLogger |     | AcceptSelector opened
+02 Nov 2020 | 16:46:01,452 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+02 Nov 2020 | 16:46:01,458 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+02 Nov 2020 | 16:46:01,459 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+02 Nov 2020 | 16:46:01,459 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+02 Nov 2020 | 16:46:01,459 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+02 Nov 2020 | 16:46:01,459 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+02 Nov 2020 | 16:46:01,460 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+02 Nov 2020 | 16:46:01,462 | INFO  | main | bootLogger |     | Security Manager started
+02 Nov 2020 | 16:46:01,465 | INFO  | main | bootLogger |     | DatagramReader started
+02 Nov 2020 | 16:46:01,465 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@6a638c79
+02 Nov 2020 | 16:46:01,465 | INFO  | main | bootLogger |     | SocketReader started
+02 Nov 2020 | 16:46:01,465 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+02 Nov 2020 | 16:46:01,465 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

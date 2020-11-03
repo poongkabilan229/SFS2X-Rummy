@@ -1,0 +1,70 @@
+29 Oct 2020 | 10:22:28,274 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60474 } on Server port: 9933 <---> 60474
+29 Oct 2020 | 10:23:47,431 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60474 }
+29 Oct 2020 | 10:30:46,511 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:33042 } on Server port: 9933 <---> 33042
+29 Oct 2020 | 10:34:49,121 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSZoneManager |     | { Zone: myFirstZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+29 Oct 2020 | 10:34:49,124 | INFO  | SFSWorker:Ext:3 | entities.managers.SFSRoomManager |     | Room created: { Zone: myFirstZone }, [ Room: CardsGame, Id: 3, Group: default, isGame: false ], type = SFSRoom
+29 Oct 2020 | 10:35:56,393 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:33042 }
+29 Oct 2020 | 10:52:39,536 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:34172 } on Server port: 9933 <---> 34172
+29 Oct 2020 | 10:53:02,533 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:34172 }
+29 Oct 2020 | 10:55:24,775 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 Oct 2020 | 10:55:24,780 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 10:55:24,781 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 10:55:24,781 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+29 Oct 2020 | 11:55:24,765 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 Oct 2020 | 11:55:24,770 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 11:55:24,772 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 11:55:24,773 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+29 Oct 2020 | 12:55:24,765 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 Oct 2020 | 12:55:24,769 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 12:55:24,770 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 12:55:24,770 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+29 Oct 2020 | 13:59:23,503 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+29 Oct 2020 | 13:59:23,503 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 13:59:23,508 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 13:59:23,509 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+29 Oct 2020 | 14:02:48,357 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52308 } on Server port: 9933 <---> 52308
+29 Oct 2020 | 14:02:48,791 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:52308 ) , Type: Unity / .Net
+29 Oct 2020 | 14:04:02,660 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:52308 }
+29 Oct 2020 | 14:04:02,662 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:52308 ) , SessionLen: 73871, Type: Unity / .Net
+29 Oct 2020 | 14:04:06,696 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52956 } on Server port: 9933 <---> 52956
+29 Oct 2020 | 14:04:07,431 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:52956 ) , Type: Unity / .Net
+29 Oct 2020 | 14:04:16,989 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:52956 }
+29 Oct 2020 | 14:04:16,990 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:52956 ) , SessionLen: 9558, Type: Unity / .Net
+29 Oct 2020 | 14:04:25,127 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53116 } on Server port: 9933 <---> 53116
+29 Oct 2020 | 14:04:25,927 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:53116 ) , Type: Unity / .Net
+29 Oct 2020 | 14:05:24,021 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53116 }
+29 Oct 2020 | 14:05:24,022 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:53116 ) , SessionLen: 58096, Type: Unity / .Net
+29 Oct 2020 | 14:11:15,831 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56468 } on Server port: 9933 <---> 56468
+29 Oct 2020 | 14:11:16,462 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: kabilan, Id: 4, Priv: 0, Sess: 127.0.0.1:56468 ) , Type: Unity / .Net
+29 Oct 2020 | 14:11:30,279 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56468 }
+29 Oct 2020 | 14:11:30,281 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: kabilan, Id: 4, Priv: 0, Sess: 127.0.0.1:56468 ) , SessionLen: 13819, Type: Unity / .Net
+29 Oct 2020 | 14:11:37,507 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:56652 } on Server port: 9933 <---> 56652
+29 Oct 2020 | 14:11:38,168 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: kabilan, Id: 5, Priv: 0, Sess: 127.0.0.1:56652 ) , Type: Unity / .Net
+29 Oct 2020 | 14:12:07,853 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:56652 }
+29 Oct 2020 | 14:12:07,854 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: kabilan, Id: 5, Priv: 0, Sess: 127.0.0.1:56652 ) , SessionLen: 29687, Type: Unity / .Net
+29 Oct 2020 | 14:51:19,540 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:47864 } on Server port: 9933 <---> 47864
+29 Oct 2020 | 14:51:20,183 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: kabilan, Id: 6, Priv: 0, Sess: 127.0.0.1:47864 ) , Type: Unity / .Net
+29 Oct 2020 | 14:55:24,027 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+29 Oct 2020 | 14:55:24,028 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 14:55:24,028 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/1
+29 Oct 2020 | 14:55:24,029 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2
+29 Oct 2020 | 14:56:26,570 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:47864 }
+29 Oct 2020 | 14:56:26,571 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: kabilan, Id: 6, Priv: 0, Sess: 127.0.0.1:47864 ) , SessionLen: 306388, Type: Unity / .Net
+29 Oct 2020 | 15:00:32,987 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52618 } on Server port: 9933 <---> 52618
+29 Oct 2020 | 15:01:06,777 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52618 }
+29 Oct 2020 | 15:02:14,823 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:53474 } on Server port: 9933 <---> 53474
+29 Oct 2020 | 15:02:15,482 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: myFirstZone }, ( User Name: kabilan, Id: 7, Priv: 0, Sess: 127.0.0.1:53474 ) , Type: Unity / .Net
+29 Oct 2020 | 15:07:26,442 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:53474 }
+29 Oct 2020 | 15:07:26,448 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: myFirstZone }, ( User Name: kabilan, Id: 7, Priv: 0, Sess: 127.0.0.1:53474 ) , SessionLen: 310966, Type: Unity / .Net
+29 Oct 2020 | 15:55:24,027 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 Oct 2020 | 15:55:24,031 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 15:55:24,032 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/1
+29 Oct 2020 | 15:55:24,032 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2
+29 Oct 2020 | 16:55:12,479 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+29 Oct 2020 | 16:55:12,484 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 16:55:12,485 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 16:55:12,485 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+29 Oct 2020 | 17:55:14,475 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+29 Oct 2020 | 17:55:14,479 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+29 Oct 2020 | 17:55:14,479 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myFirstZone }, CCU: 0/0
+29 Oct 2020 | 17:55:14,480 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

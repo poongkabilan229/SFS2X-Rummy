@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [30/Oct/2020:12:36:45 +0530] "GET /admin/AdminTool.swf?v=2.2.0 HTTP/1.1" 200 756249
+0:0:0:0:0:0:0:1 - - [30/Oct/2020:12:41:59 +0530] "GET /admin/assets/icons/tabs/permissionsEvents.png HTTP/1.1" 404 1135
+0:0:0:0:0:0:0:1 - - [30/Oct/2020:23:09:19 +0530] "GET /admin/assets/icons/tabs/permissionsEvents.png HTTP/1.1" 404 1135

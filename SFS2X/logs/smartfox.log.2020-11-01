@@ -1,0 +1,814 @@
+01 Nov 2020 | 08:51:08,470 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+01 Nov 2020 | 08:51:08,480 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+01 Nov 2020 | 08:51:08,476 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+01 Nov 2020 | 08:58:16,195 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+01 Nov 2020 | 08:58:16,876 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+01 Nov 2020 | 08:58:16,902 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+01 Nov 2020 | 08:58:17,005 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+01 Nov 2020 | 08:58:17,006 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+01 Nov 2020 | 08:58:17,026 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+01 Nov 2020 | 08:58:17,033 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+01 Nov 2020 | 08:58:17,037 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/jsZone.zone.xml
+01 Nov 2020 | 08:58:17,081 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+01 Nov 2020 | 08:58:17,104 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/SpaceWar.zone.xml
+01 Nov 2020 | 08:58:17,123 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: jsZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 08:58:17,142 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: jsZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 08:58:17,156 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: jsZone }, [ Room: Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 08:58:18,348 | INFO  | main | Extensions |     | {sampleJSExtension}: sample one extension added sucessfully  
+01 Nov 2020 | 08:58:18,620 | INFO  | main | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 08:58:18 GMT+0530 (IST) 
+01 Nov 2020 | 08:58:18,636 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 08:58:18,640 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 08:58:18,640 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: SpaceWar 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 08:58:18,641 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: SpaceWar } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 08:58:18,642 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: SpaceWar }, [ Room: Sol, Id: 2, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 08:58:18,726 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 08:58:18,787 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+01 Nov 2020 | 08:58:18,846 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+01 Nov 2020 | 08:58:18,848 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+01 Nov 2020 | 08:58:18,849 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+01 Nov 2020 | 08:58:22,943 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+01 Nov 2020 | 08:59:18,863 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 08:59:18,863 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 08:59:18,863 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/0
+01 Nov 2020 | 08:59:18,864 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 08:59:18,864 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+01 Nov 2020 | 14:55:58,793 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 14:55:58,798 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 14:55:58,799 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/0
+01 Nov 2020 | 14:55:58,799 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 14:55:58,800 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+01 Nov 2020 | 14:56:22,097 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+01 Nov 2020 | 14:56:22,098 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+01 Nov 2020 | 14:56:22,117 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+01 Nov 2020 | 15:11:45,137 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+01 Nov 2020 | 15:11:45,803 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+01 Nov 2020 | 15:11:45,828 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+01 Nov 2020 | 15:11:45,933 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+01 Nov 2020 | 15:11:45,935 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+01 Nov 2020 | 15:11:45,952 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+01 Nov 2020 | 15:11:45,959 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+01 Nov 2020 | 15:11:45,963 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/jsZone.zone.xml
+01 Nov 2020 | 15:11:46,011 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+01 Nov 2020 | 15:11:46,030 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/SpaceWar.zone.xml
+01 Nov 2020 | 15:11:46,055 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: jsZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 15:11:46,074 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: jsZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 15:11:46,090 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: jsZone }, [ Room: Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 15:11:47,347 | INFO  | main | Extensions |     | {sampleJSExtension}: sample one extension added sucessfully  
+01 Nov 2020 | 15:11:47,671 | INFO  | main | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 15:11:47 GMT+0530 (IST) 
+01 Nov 2020 | 15:11:47,690 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 15:11:47,694 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 15:11:47,695 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: SpaceWar 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 15:11:47,696 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: SpaceWar } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 15:11:47,697 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: SpaceWar }, [ Room: Sol, Id: 2, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 15:11:47,807 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 15:11:47,858 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+01 Nov 2020 | 15:11:47,928 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+01 Nov 2020 | 15:11:47,929 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+01 Nov 2020 | 15:11:47,931 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+01 Nov 2020 | 15:11:51,340 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+01 Nov 2020 | 15:12:12,490 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35530 } on Server port: 9933 <---> 35530
+01 Nov 2020 | 15:12:12,970 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 0, Priv: 0, Sess: 127.0.0.1:35530 ) , Type: Unity / .Net
+01 Nov 2020 | 15:12:13,034 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 0, Priv: 0, Sess: 127.0.0.1:35530 ) , asSpect: false
+01 Nov 2020 | 15:17:18,020 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:35530 }
+01 Nov 2020 | 15:17:18,026 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 0, Priv: 0, Sess: 127.0.0.1:35530 ) , SessionLen: 305056, Type: Unity / .Net
+01 Nov 2020 | 15:19:49,435 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35726 } on Server port: 9933 <---> 35726
+01 Nov 2020 | 15:19:49,925 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 1, Priv: 0, Sess: 127.0.0.1:35726 ) , Type: Unity / .Net
+01 Nov 2020 | 15:19:49,995 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 1, Priv: 0, Sess: 127.0.0.1:35726 ) , asSpect: false
+01 Nov 2020 | 15:23:58,069 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 15:23:58,288 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 15:23:58 GMT+0530 (IST) 
+01 Nov 2020 | 15:24:18,940 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:35726 }
+01 Nov 2020 | 15:24:18,942 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 1, Priv: 0, Sess: 127.0.0.1:35726 ) , SessionLen: 269018, Type: Unity / .Net
+01 Nov 2020 | 15:24:29,582 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35884 } on Server port: 9933 <---> 35884
+01 Nov 2020 | 15:24:30,044 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:35884 ) , Type: Unity / .Net
+01 Nov 2020 | 15:24:30,115 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:35884 ) , asSpect: false
+01 Nov 2020 | 15:29:37,934 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:35884 }
+01 Nov 2020 | 15:29:37,940 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:35884 ) , SessionLen: 307895, Type: Unity / .Net
+01 Nov 2020 | 19:55:42,021 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 19:55:42,026 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 19:55:42,026 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/1
+01 Nov 2020 | 19:55:42,027 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 19:55:42,028 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+01 Nov 2020 | 20:10:46,918 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 20:10:47,166 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 20:10:47 GMT+0530 (IST) 
+01 Nov 2020 | 20:10:55,179 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 20:10:55,394 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 20:10:55 GMT+0530 (IST) 
+01 Nov 2020 | 20:55:42,021 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 20:55:42,027 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 20:55:42,028 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/0
+01 Nov 2020 | 20:55:42,028 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 20:55:42,029 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+01 Nov 2020 | 21:17:38,368 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:17:38,535 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:17:38 GMT+0530 (IST) 
+01 Nov 2020 | 21:18:34,608 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:18:34,752 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:18:34 GMT+0530 (IST) 
+01 Nov 2020 | 21:25:07,213 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:25:07,392 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:25:07 GMT+0530 (IST) 
+01 Nov 2020 | 21:25:35,425 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:25:35,561 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:25:35 GMT+0530 (IST) 
+01 Nov 2020 | 21:25:36,824 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: HTTP request successful: [object Object] 
+01 Nov 2020 | 21:27:25,771 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:27:25,886 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:27:25 GMT+0530 (IST) 
+01 Nov 2020 | 21:27:26,735 | INFO  | SFSWorker:Ext:2 | Extensions |     | {sampleJSExtension}: HTTP request successful: [object Object] 
+01 Nov 2020 | 21:27:47,940 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:27:48,047 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:27:48 GMT+0530 (IST) 
+01 Nov 2020 | 21:27:49,024 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:28:34,128 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:28:34,261 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:28:34 GMT+0530 (IST) 
+01 Nov 2020 | 21:28:48,299 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:28:48,404 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:28:48 GMT+0530 (IST) 
+01 Nov 2020 | 21:28:48,911 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:28:58,439 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:28:58,610 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:28:58 GMT+0530 (IST) 
+01 Nov 2020 | 21:28:59,266 | INFO  | SFSWorker:Ext:5 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:31:44,858 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:31:44,959 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:31:44 GMT+0530 (IST) 
+01 Nov 2020 | 21:31:46,384 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:32:27,038 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:32:27,146 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:32:27 GMT+0530 (IST) 
+01 Nov 2020 | 21:33:23,248 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:33:23,353 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:33:23 GMT+0530 (IST) 
+01 Nov 2020 | 21:33:24,002 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:34:25,485 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:34:25,589 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:34:25 GMT+0530 (IST) 
+01 Nov 2020 | 21:34:25,649 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:37:29,844 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:37:29,943 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:37:29 GMT+0530 (IST) 
+01 Nov 2020 | 21:37:30,032 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:37:57,993 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:37:58,082 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:37:58 GMT+0530 (IST) 
+01 Nov 2020 | 21:37:58,188 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:40:04,258 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:40:04,369 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:40:04 GMT+0530 (IST) 
+01 Nov 2020 | 21:40:04,474 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:40:42,437 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:40:42,521 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:40:42 GMT+0530 (IST) 
+01 Nov 2020 | 21:40:42,590 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:41:28,584 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:41:28,667 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:41:28 GMT+0530 (IST) 
+01 Nov 2020 | 21:41:28,753 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:42:00,734 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:42:00,797 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:42:00 GMT+0530 (IST) 
+01 Nov 2020 | 21:42:00,828 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:45:17,057 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:45:17,177 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:45:17 GMT+0530 (IST) 
+01 Nov 2020 | 21:45:17,249 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 21:45:27,197 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:45:27,280 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:45:27 GMT+0530 (IST) 
+01 Nov 2020 | 21:45:27,326 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: [object Object] 
+01 Nov 2020 | 21:49:31,644 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:49:31,723 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:49:31 GMT+0530 (IST) 
+01 Nov 2020 | 21:49:31,799 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: [object Object] 
+01 Nov 2020 | 21:49:43,748 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:49:44,130 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:49:44 GMT+0530 (IST) 
+01 Nov 2020 | 21:49:44,216 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:50:44,271 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:50:44,366 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:50:44 GMT+0530 (IST) 
+01 Nov 2020 | 21:50:44,476 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:50:44,476 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:51:48,460 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:51:48,709 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:51:48 GMT+0530 (IST) 
+01 Nov 2020 | 21:51:48,849 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:51:48,850 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:51:48,850 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:52:16,780 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:52:16,848 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:52:16 GMT+0530 (IST) 
+01 Nov 2020 | 21:52:16,909 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:52:16,910 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:52:16,910 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:53:34,939 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:53:35,000 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:53:34 GMT+0530 (IST) 
+01 Nov 2020 | 21:53:35,072 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:53:35,072 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: success message--- {"msg":"success"} 
+01 Nov 2020 | 21:53:35,073 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:55:35,160 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:55:35,305 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:55:35 GMT+0530 (IST) 
+01 Nov 2020 | 21:55:35,366 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:55:35,366 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:55:35,367 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:55:41,526 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 21:55:41,526 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 21:55:41,526 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/0
+01 Nov 2020 | 21:55:41,526 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 21:55:41,526 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+01 Nov 2020 | 21:56:17,362 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:56:17,424 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:56:17 GMT+0530 (IST) 
+01 Nov 2020 | 21:56:17,480 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:56:17,481 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:56:17,481 | INFO  | SFSWorker:Ext:6 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:56:41,459 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:56:41,525 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:56:41 GMT+0530 (IST) 
+01 Nov 2020 | 21:56:41,585 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:56:41,586 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:56:41,587 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:57:07,559 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:57:07,623 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:57:07 GMT+0530 (IST) 
+01 Nov 2020 | 21:57:07,690 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:57:07,691 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:57:07,692 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:58:07,704 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:58:07,769 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:58:07 GMT+0530 (IST) 
+01 Nov 2020 | 21:58:07,839 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:58:07,840 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:58:07,841 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:58:15,793 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:58:15,970 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:58:15 GMT+0530 (IST) 
+01 Nov 2020 | 21:58:16,019 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:58:16,020 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: success message--- {} 
+01 Nov 2020 | 21:58:16,020 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 21:58:58,055 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 21:58:58,137 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 21:58:58 GMT+0530 (IST) 
+01 Nov 2020 | 21:58:58,201 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 21:58:58,202 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message--- {"msg":"success"} 
+01 Nov 2020 | 21:58:58,203 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 22:36:18,011 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 22:36:18,299 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 22:36:18 GMT+0530 (IST) 
+01 Nov 2020 | 22:36:18,414 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: 200 
+01 Nov 2020 | 22:36:18,414 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: success message--- {"msg":"success"} 
+01 Nov 2020 | 22:36:18,414 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: third param--  
+01 Nov 2020 | 22:37:32,523 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 22:37:32,720 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 22:37:32 GMT+0530 (IST) 
+01 Nov 2020 | 22:37:32,761 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 22:37:32,762 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 22:37:32,764 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 22:47:09,896 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43200 } on Server port: 9933 <---> 43200
+01 Nov 2020 | 22:47:10,371 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:43200 ) , Type: Unity / .Net
+01 Nov 2020 | 22:47:10,448 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:43200 ) , asSpect: false
+01 Nov 2020 | 22:52:18,000 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:43200 }
+01 Nov 2020 | 22:52:18,015 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:43200 ) , SessionLen: 307641, Type: Unity / .Net
+01 Nov 2020 | 22:54:42,633 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43370 } on Server port: 9933 <---> 43370
+01 Nov 2020 | 22:54:43,107 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 4, Priv: 0, Sess: 127.0.0.1:43370 ) , Type: Unity / .Net
+01 Nov 2020 | 22:54:43,116 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:43370 ) . Requested by: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:43370 }
+01 Nov 2020 | 22:54:43,182 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 4, Priv: 0, Sess: 127.0.0.1:43370 ) , asSpect: false
+01 Nov 2020 | 22:55:41,536 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 22:55:41,547 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 22:55:41,547 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/1
+01 Nov 2020 | 22:55:41,547 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 22:55:41,547 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+01 Nov 2020 | 22:58:49,299 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 22:58:49,467 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 22:58:49 GMT+0530 (IST) 
+01 Nov 2020 | 22:58:49,514 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 22:58:49,515 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 22:58:49,515 | INFO  | SFSWorker:Ext:4 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 22:59:48,040 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:43370 }
+01 Nov 2020 | 22:59:48,061 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 4, Priv: 0, Sess: 127.0.0.1:43370 ) , SessionLen: 304954, Type: Unity / .Net
+01 Nov 2020 | 23:02:57,854 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:02:58,005 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:02:57 GMT+0530 (IST) 
+01 Nov 2020 | 23:02:58,050 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 23:02:58,051 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 23:02:58,051 | INFO  | SFSWorker:Ext:3 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 23:09:19,704 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+01 Nov 2020 | 23:09:20,597 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+01 Nov 2020 | 23:09:20,628 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+01 Nov 2020 | 23:09:20,785 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+01 Nov 2020 | 23:09:20,787 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+01 Nov 2020 | 23:09:20,811 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+01 Nov 2020 | 23:09:20,837 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+01 Nov 2020 | 23:09:20,840 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/jsZone.zone.xml
+01 Nov 2020 | 23:09:20,883 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+01 Nov 2020 | 23:09:20,905 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/SpaceWar.zone.xml
+01 Nov 2020 | 23:09:20,927 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: jsZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:09:20,945 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: jsZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 23:09:20,959 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: jsZone }, [ Room: Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 23:09:22,426 | INFO  | main | Extensions |     | {sampleJSExtension}: sample one extension added sucessfully  
+01 Nov 2020 | 23:09:23,010 | INFO  | main | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:09:22 GMT+0530 (IST) 
+01 Nov 2020 | 23:09:23,126 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:09:23,130 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 23:09:23,131 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: SpaceWar 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:09:23,131 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: SpaceWar } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+01 Nov 2020 | 23:09:23,135 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: SpaceWar }, [ Room: Sol, Id: 2, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 23:09:23,256 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+01 Nov 2020 | 23:09:23,423 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+01 Nov 2020 | 23:09:23,631 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+01 Nov 2020 | 23:09:23,653 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+01 Nov 2020 | 23:09:23,654 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+01 Nov 2020 | 23:09:23,812 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 23:09:23,814 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 23:09:23,815 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 23:09:27,692 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+01 Nov 2020 | 23:10:09,908 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:10:10,305 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:10:10 GMT+0530 (IST) 
+01 Nov 2020 | 23:10:10,397 | INFO  | SFSWorker:Ext:2 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 23:10:10,398 | INFO  | SFSWorker:Ext:2 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 23:10:10,399 | INFO  | SFSWorker:Ext:2 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 23:11:58,466 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:11:58,928 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:11:58 GMT+0530 (IST) 
+01 Nov 2020 | 23:11:59,165 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: HTTP request successful: undefined 
+01 Nov 2020 | 23:11:59,165 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: success message---  
+01 Nov 2020 | 23:11:59,166 | INFO  | SFSWorker:Ext:1 | Extensions |     | {sampleJSExtension}: third param-- Connect to localhost:5001 [localhost/127.0.0.1] failed: Connection refused (Connection refused) 
+01 Nov 2020 | 23:16:54,316 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:55904 } on Server port: 9933 <---> 55904
+01 Nov 2020 | 23:16:54,763 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:55904 ) , Type: Unity / .Net
+01 Nov 2020 | 23:16:54,765 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: kabilan, Id: 0, Priv: 0, Sess: 127.0.0.1:55904 ) . Requested by: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55904 }
+01 Nov 2020 | 23:16:54,851 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:55904 ) , asSpect: false
+01 Nov 2020 | 23:18:44,148 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55904 }
+01 Nov 2020 | 23:18:44,150 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:55904 ) , SessionLen: 109386, Type: Unity / .Net
+01 Nov 2020 | 23:18:51,522 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:55922 } on Server port: 9933 <---> 55922
+01 Nov 2020 | 23:18:52,069 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:55922 ) , Type: Unity / .Net
+01 Nov 2020 | 23:18:52,151 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:55922 ) , asSpect: false
+01 Nov 2020 | 23:21:01,751 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:21:01,918 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:21:01 GMT+0530 (IST) 
+01 Nov 2020 | 23:21:01,939 | WARN  | Thread-3 | Extensions |     | <eval>:7 ReferenceError: "getId" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:23:53,801 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:55922 }
+01 Nov 2020 | 23:23:53,805 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: jsZone }, ( User Name: kabilan, Id: 2, Priv: 0, Sess: 127.0.0.1:55922 ) , SessionLen: 301736, Type: Unity / .Net
+01 Nov 2020 | 23:26:36,257 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:26:36,410 | WARN  | Thread-3 | Extensions |     | java.lang.NoSuchMethodException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NoSuchMethodException
+Message: No such function init
+Description: Error invoking Javascript function: init
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:204)
+jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:386)
+jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:227)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:27:08,443 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:27:08,588 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:27:08 GMT+0530 (IST) 
+01 Nov 2020 | 23:27:58,636 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:27:58,813 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:27:58 GMT+0530 (IST) 
+01 Nov 2020 | 23:27:58,818 | WARN  | Thread-3 | Extensions |     | <eval>:9 TypeError: SFSUSER.getId is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:28:10,837 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:28:10,961 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:28:10 GMT+0530 (IST) 
+01 Nov 2020 | 23:28:10,964 | WARN  | Thread-3 | Extensions |     | <eval>:9 TypeError: SFSUSER.getId is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:28:28,981 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:28:29,123 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:28:29 GMT+0530 (IST) 
+01 Nov 2020 | 23:28:29,127 | WARN  | Thread-3 | Extensions |     | <eval>:9 TypeError: SFSUser.getId is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:28:39,140 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:28:39,331 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:28:39 GMT+0530 (IST) 
+01 Nov 2020 | 23:28:39,338 | WARN  | Thread-3 | Extensions |     | <eval>:9 TypeError: SFSUser.getId is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:31:21,493 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:31:21,614 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:31:21 GMT+0530 (IST) 
+01 Nov 2020 | 23:31:45,641 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:31:45,730 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:31:45 GMT+0530 (IST) 
+01 Nov 2020 | 23:31:45,734 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- { Zone: jsZone } 
+01 Nov 2020 | 23:32:01,749 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:32:01,841 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:32:01 GMT+0530 (IST) 
+01 Nov 2020 | 23:32:01,847 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- { Zone: jsZone } 
+01 Nov 2020 | 23:32:11,858 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:32:11,967 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:32:11 GMT+0530 (IST) 
+01 Nov 2020 | 23:32:11,979 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- { Zone: jsZone } 
+01 Nov 2020 | 23:32:23,991 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:32:24,209 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:32:24 GMT+0530 (IST) 
+01 Nov 2020 | 23:32:24,243 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones---  
+01 Nov 2020 | 23:32:38,257 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:32:38,366 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:32:38 GMT+0530 (IST) 
+01 Nov 2020 | 23:32:38,369 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- { Zone: jsZone } 
+01 Nov 2020 | 23:33:14,401 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:33:14,499 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:33:14 GMT+0530 (IST) 
+01 Nov 2020 | 23:33:14,505 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- jsZone 
+01 Nov 2020 | 23:33:42,533 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:33:42,660 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:33:42 GMT+0530 (IST) 
+01 Nov 2020 | 23:33:42,670 | WARN  | Thread-3 | Extensions |     | <eval>:10 TypeError: getParentZone().getParentRoom is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:33:54,682 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:33:54,783 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:33:54 GMT+0530 (IST) 
+01 Nov 2020 | 23:33:54,787 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones---  
+01 Nov 2020 | 23:34:02,797 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:34:02,910 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:34:02 GMT+0530 (IST) 
+01 Nov 2020 | 23:34:02,917 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- [object Object] 
+01 Nov 2020 | 23:34:16,929 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:34:17,041 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:34:17 GMT+0530 (IST) 
+01 Nov 2020 | 23:34:17,045 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones---  
+01 Nov 2020 | 23:34:27,054 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:34:27,139 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:34:27 GMT+0530 (IST) 
+01 Nov 2020 | 23:34:27,145 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- [object Object] 
+01 Nov 2020 | 23:35:07,194 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:35:07,319 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:35:07 GMT+0530 (IST) 
+01 Nov 2020 | 23:35:07,321 | WARN  | Thread-3 | Extensions |     | <eval>:10 ReferenceError: "getExtensionFileName" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:35:19,336 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:35:19,421 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:35:19 GMT+0530 (IST) 
+01 Nov 2020 | 23:35:19,425 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: zones--- [object Object] 
+01 Nov 2020 | 23:35:43,451 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:35:43,549 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:35:43 GMT+0530 (IST) 
+01 Nov 2020 | 23:35:43,553 | WARN  | Thread-3 | Extensions |     | <eval>:10 ReferenceError: "isActive" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:36:31,605 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:36:31,708 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: java.lang.RuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.RuntimeException
+Message: java.lang.ClassNotFoundException: com.smartfoxserver.v2.extensions
+Description: Error while loading Javascript extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:397)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:449)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
+com.smartfoxserver.v2.extensions.JavascriptExtension.loadScript(JavascriptExtension.java:133)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:59)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ WARN 
+01 Nov 2020 | 23:36:31,710 | ERROR | Thread-3 | entities.managers.SFSExtensionManager |     | java.lang.IllegalStateException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalStateException
+Message: Javascript extension is not initialized! Can't invoke method: init
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:218)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:37:29,808 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:37:29,898 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:37:29 GMT+0530 (IST) 
+01 Nov 2020 | 23:37:29,903 | WARN  | Thread-3 | Extensions |     | <eval>:10 ReferenceError: "isActive" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:37:45,917 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:37:45,985 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:37:45 GMT+0530 (IST) 
+01 Nov 2020 | 23:37:45,987 | WARN  | Thread-3 | Extensions |     | <eval>:10 TypeError: SFSUSER.isActive is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:38:04,007 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:38:04,091 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:38:04 GMT+0530 (IST) 
+01 Nov 2020 | 23:38:04,093 | WARN  | Thread-3 | Extensions |     | <eval>:10 TypeError: SFSUser.isActive is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:38:34,124 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:38:34,196 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: javax.script.ScriptException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: javax.script.ScriptException
+Message: TypeError: new SFSUSER().BaseSFSExtension is not a function in <eval> at line number 3
+Description: Error while loading Javascript extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:454)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
+com.smartfoxserver.v2.extensions.JavascriptExtension.loadScript(JavascriptExtension.java:133)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:59)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ WARN 
+01 Nov 2020 | 23:38:34,197 | ERROR | Thread-3 | entities.managers.SFSExtensionManager |     | java.lang.IllegalStateException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalStateException
+Message: Javascript extension is not initialized! Can't invoke method: init
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:218)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:38:40,203 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:38:40,286 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: javax.script.ScriptException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: javax.script.ScriptException
+Message: TypeError: new SFSUSER().BaseSFSExtension is not a function in <eval> at line number 3
+Description: Error while loading Javascript extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:454)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
+com.smartfoxserver.v2.extensions.JavascriptExtension.loadScript(JavascriptExtension.java:133)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:59)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ WARN 
+01 Nov 2020 | 23:38:40,287 | ERROR | Thread-3 | entities.managers.SFSExtensionManager |     | java.lang.IllegalStateException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalStateException
+Message: Javascript extension is not initialized! Can't invoke method: init
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:218)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:38:54,299 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:38:54,360 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: javax.script.ScriptException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: javax.script.ScriptException
+Message: TypeError: new SFSUSER().BaseSFSExtension is not a function in <eval> at line number 3
+Description: Error while loading Javascript extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:454)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
+com.smartfoxserver.v2.extensions.JavascriptExtension.loadScript(JavascriptExtension.java:133)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:59)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ WARN 
+01 Nov 2020 | 23:38:54,361 | ERROR | Thread-3 | entities.managers.SFSExtensionManager |     | java.lang.IllegalStateException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalStateException
+Message: Javascript extension is not initialized! Can't invoke method: init
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:218)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:40:34,459 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:40:34,550 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:40:34 GMT+0530 (IST) 
+01 Nov 2020 | 23:40:34,552 | WARN  | Thread-3 | Extensions |     | <eval>:10 ReferenceError: "SFSUser" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:50:37,157 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:50:37,233 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:50:37 GMT+0530 (IST) 
+01 Nov 2020 | 23:50:37,236 | WARN  | Thread-3 | Extensions |     | <eval>:11 ReferenceError: "getUserByName" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:51:25,285 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:51:25,370 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:51:25 GMT+0530 (IST) 
+01 Nov 2020 | 23:51:25,373 | WARN  | Thread-3 | Extensions |     | <eval>:11 ReferenceError: "zone" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:51:43,389 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:51:43,503 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:51:43 GMT+0530 (IST) 
+01 Nov 2020 | 23:51:43,515 | WARN  | Thread-3 | Extensions |     | lib/js/LibApi.js:870 TypeError: zone.getUserByName is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:52:07,536 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:52:07,617 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:52:07 GMT+0530 (IST) 
+01 Nov 2020 | 23:52:07,622 | WARN  | Thread-3 | Extensions |     | lib/js/LibApi.js:870 TypeError: zone.getUserByName is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:52:39,650 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:52:39,712 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:52:39 GMT+0530 (IST) 
+01 Nov 2020 | 23:52:39,715 | WARN  | Thread-3 | Extensions |     | <eval>:11 ReferenceError: "SFSZone" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:53:35,765 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:53:35,855 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:53:35 GMT+0530 (IST) 
+01 Nov 2020 | 23:53:35,860 | WARN  | Thread-3 | Extensions |     | <eval>:11 ReferenceError: "name" is not defined in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:53:51,874 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:53:51,951 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:53:51 GMT+0530 (IST) 
+01 Nov 2020 | 23:53:51,954 | WARN  | Thread-3 | Extensions |     | <eval>:11 TypeError: SFS.SFSZone is not a function in Extension: sampleJSExtension, File: jsExtension.js
+01 Nov 2020 | 23:54:17,980 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:54:18,066 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:54:18 GMT+0530 (IST) 
+01 Nov 2020 | 23:55:23,670 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: SpaceWar }, CCU: 0/0
+01 Nov 2020 | 23:55:23,671 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+01 Nov 2020 | 23:55:23,671 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: jsZone }, CCU: 0/1
+01 Nov 2020 | 23:55:23,671 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+01 Nov 2020 | 23:55:23,671 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+01 Nov 2020 | 23:55:24,142 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:55:24,221 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:55:24 GMT+0530 (IST) 
+01 Nov 2020 | 23:55:28,796 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:57018 } on Server port: 9933 <---> 57018
+01 Nov 2020 | 23:55:29,473 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: jsZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:57018 ) , Type: Unity / .Net
+01 Nov 2020 | 23:55:29,550 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: Lobby, Id: 0, Group: default, isGame: false ], { Zone: jsZone }, ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:57018 ) , asSpect: false
+01 Nov 2020 | 23:55:58,251 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:55:58,330 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:55:58 GMT+0530 (IST) 
+01 Nov 2020 | 23:56:20,380 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:56:20,523 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:56:20 GMT+0530 (IST) 
+01 Nov 2020 | 23:56:20,529 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3 ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:57018 )  
+01 Nov 2020 | 23:56:56,565 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:56:56,645 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:56:56 GMT+0530 (IST) 
+01 Nov 2020 | 23:56:56,667 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3  
+01 Nov 2020 | 23:57:08,687 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:57:08,815 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:57:08 GMT+0530 (IST) 
+01 Nov 2020 | 23:57:08,828 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3  
+01 Nov 2020 | 23:57:16,837 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:57:16,917 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:57:16 GMT+0530 (IST) 
+01 Nov 2020 | 23:57:16,924 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3 ( User Name: kabilan, Id: 3, Priv: 0, Sess: 127.0.0.1:57018 )  
+01 Nov 2020 | 23:57:26,934 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:57:27,029 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:57:27 GMT+0530 (IST) 
+01 Nov 2020 | 23:57:27,035 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3  
+01 Nov 2020 | 23:59:23,156 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:59:23,243 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: javax.script.ScriptException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: javax.script.ScriptException
+Message: TypeError: Cannot load script from extensions/sampleJSExtension/com.smartfoxserver.v2.entities.SFSZone in <eval> at line number 979
+Description: Error while loading Javascript extension
++--- --- ---+
+Stack Trace:
++--- --- ---+
+jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:454)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
+com.smartfoxserver.v2.extensions.JavascriptExtension.loadScript(JavascriptExtension.java:133)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:59)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ WARN 
+01 Nov 2020 | 23:59:23,244 | ERROR | Thread-3 | entities.managers.SFSExtensionManager |     | java.lang.IllegalStateException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalStateException
+Message: Javascript extension is not initialized! Can't invoke method: init
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.JavascriptExtension.invokeFunction(JavascriptExtension.java:218)
+com.smartfoxserver.v2.extensions.JavascriptExtension.init(JavascriptExtension.java:61)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.reloadExtension(SFSExtensionManager.java:534)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager$ExtensionFileChangeListener.fileChanged(SFSExtensionManager.java:111)
+org.apache.commons.vfs.events.ChangedEvent.notify(ChangedEvent.java:34)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireEvent(AbstractFileSystem.java:519)
+org.apache.commons.vfs.provider.AbstractFileSystem.fireFileChanged(AbstractFileSystem.java:487)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.check(DefaultFileMonitor.java:647)
+org.apache.commons.vfs.impl.DefaultFileMonitor$FileMonitorAgent.access$200(DefaultFileMonitor.java:418)
+org.apache.commons.vfs.impl.DefaultFileMonitor.run(DefaultFileMonitor.java:373)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+01 Nov 2020 | 23:59:47,264 | INFO  | Thread-3 | entities.managers.SFSExtensionManager |     | Reloading extension: { Ext: sampleJSExtension, Type: JAVASCRIPT, Lev: ZONE, { Zone: jsZone }, {} }
+01 Nov 2020 | 23:59:47,376 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: Sample Extension enabled in Sun Nov 01 2020 23:59:47 GMT+0530 (IST) 
+01 Nov 2020 | 23:59:47,381 | INFO  | Thread-3 | Extensions |     | {sampleJSExtension}: User--3  

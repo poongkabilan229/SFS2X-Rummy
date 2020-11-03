@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:45:47 +0530] "GET /_images_/background_logo.png HTTP/1.1" 200 44521
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:45:59 +0530] "GET /admin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:45:59 +0530] "GET /favicon.ico HTTP/1.1" 200 1150
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:45:59 +0530] "GET /admin/AdminTool.swf?v=2.2.0 HTTP/1.1" 200 756249
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:46:12 +0530] "GET /admin/modules/Dashboard.swf?v=2.2.0 HTTP/1.1" 200 198051
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:22:46:20 +0530] "GET /admin/modules/ZoneConfigurator.swf?v=2.2.0 HTTP/1.1" 200 105051
+0:0:0:0:0:0:0:1 - - [28/Oct/2020:23:04:23 +0530] "GET /admin/assets/icons/tabs/permissionsEvents.png HTTP/1.1" 404 1135

@@ -1,0 +1,754 @@
+27 Oct 2020 | 09:20:14,402 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 09:20:14,981 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 09:20:15,003 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 09:20:15,098 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 09:20:15,099 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 09:20:15,101 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+27 Oct 2020 | 09:20:15,106 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 09:20:15,110 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 09:20:15,148 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 09:20:15,178 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:20:15,186 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:20:15,237 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 09:20:15,290 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 09:20:15,292 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 09:20:15,292 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 09:20:18,285 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 09:26:35,981 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39114 } on Server port: 9933 <---> 39114
+27 Oct 2020 | 09:26:35,988 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39116 } on Server port: 9933 <---> 39116
+27 Oct 2020 | 09:26:59,256 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39116 }
+27 Oct 2020 | 09:27:15,444 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39114 }
+27 Oct 2020 | 09:27:15,447 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39450 } on Server port: 9933 <---> 39450
+27 Oct 2020 | 09:27:55,475 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39450 }
+27 Oct 2020 | 09:27:56,583 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39834 } on Server port: 9933 <---> 39834
+27 Oct 2020 | 09:27:56,584 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39836 } on Server port: 9933 <---> 39836
+27 Oct 2020 | 09:28:02,391 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39836 }
+27 Oct 2020 | 09:28:23,670 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40068 } on Server port: 9933 <---> 40068
+27 Oct 2020 | 09:28:35,507 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:39834 }
+27 Oct 2020 | 09:28:35,510 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40158 } on Server port: 9933 <---> 40158
+27 Oct 2020 | 09:28:55,523 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40068 }
+27 Oct 2020 | 09:28:55,528 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40320 } on Server port: 9933 <---> 40320
+27 Oct 2020 | 09:29:13,600 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40320 }
+27 Oct 2020 | 09:29:15,288 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40158 }
+27 Oct 2020 | 09:29:20,334 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40536 } on Server port: 9933 <---> 40536
+27 Oct 2020 | 09:29:20,335 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40538 } on Server port: 9933 <---> 40538
+27 Oct 2020 | 09:29:55,313 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40536 }
+27 Oct 2020 | 09:29:55,314 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40538 }
+27 Oct 2020 | 09:29:55,316 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40824 } on Server port: 9933 <---> 40824
+27 Oct 2020 | 09:30:35,343 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:40824 }
+27 Oct 2020 | 09:31:05,371 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41504 } on Server port: 9933 <---> 41504
+27 Oct 2020 | 09:31:05,371 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41506 } on Server port: 9933 <---> 41506
+27 Oct 2020 | 09:31:12,983 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41506 }
+27 Oct 2020 | 09:31:45,402 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41504 }
+27 Oct 2020 | 09:31:45,406 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41846 } on Server port: 9933 <---> 41846
+27 Oct 2020 | 09:32:25,426 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:41846 }
+27 Oct 2020 | 09:32:32,942 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 09:32:32,943 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 09:32:32,978 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 09:34:26,050 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 09:34:26,640 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 09:34:26,662 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 09:34:26,747 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 09:34:26,748 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 09:34:26,763 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 09:34:26,770 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 09:34:26,773 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 09:34:26,800 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 09:34:26,830 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:34:26,838 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:34:26,888 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 09:34:26,963 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 09:34:26,966 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 09:34:26,967 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 09:34:30,081 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 09:34:30,514 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43220 } on Server port: 9933 <---> 43220
+27 Oct 2020 | 09:34:30,521 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43222 } on Server port: 9933 <---> 43222
+27 Oct 2020 | 09:35:06,953 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43220 }
+27 Oct 2020 | 09:35:06,954 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43222 }
+27 Oct 2020 | 09:35:06,955 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43524 } on Server port: 9933 <---> 43524
+27 Oct 2020 | 09:35:46,980 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43524 }
+27 Oct 2020 | 09:35:48,050 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43882 } on Server port: 9933 <---> 43882
+27 Oct 2020 | 09:35:48,050 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43884 } on Server port: 9933 <---> 43884
+27 Oct 2020 | 09:36:27,012 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43882 }
+27 Oct 2020 | 09:36:27,013 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:43884 }
+27 Oct 2020 | 09:36:27,016 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44212 } on Server port: 9933 <---> 44212
+27 Oct 2020 | 09:36:46,914 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 09:36:46,919 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 09:36:46,930 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 09:37:00,083 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 09:37:00,581 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 09:37:00,603 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 09:37:00,669 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 09:37:00,670 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 09:37:00,688 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 09:37:00,694 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 09:37:00,697 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 09:37:00,727 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 09:37:00,757 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:37:00,767 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 09:37:00,811 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 09:37:00,864 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 09:37:00,864 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 09:37:00,865 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 09:37:03,665 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 09:37:28,674 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44762 } on Server port: 9933 <---> 44762
+27 Oct 2020 | 09:37:28,681 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44764 } on Server port: 9933 <---> 44764
+27 Oct 2020 | 09:37:33,722 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44764 }
+27 Oct 2020 | 09:38:00,940 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44762 }
+27 Oct 2020 | 09:38:00,945 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45116 } on Server port: 9933 <---> 45116
+27 Oct 2020 | 09:38:40,966 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45116 }
+27 Oct 2020 | 09:38:44,230 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45502 } on Server port: 9933 <---> 45502
+27 Oct 2020 | 09:38:44,236 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45506 } on Server port: 9933 <---> 45506
+27 Oct 2020 | 09:38:45,678 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45506 }
+27 Oct 2020 | 09:39:20,996 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45502 }
+27 Oct 2020 | 09:39:26,037 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45862 } on Server port: 9933 <---> 45862
+27 Oct 2020 | 09:39:26,038 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45864 } on Server port: 9933 <---> 45864
+27 Oct 2020 | 09:39:48,534 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45864 }
+27 Oct 2020 | 09:40:01,034 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45862 }
+27 Oct 2020 | 09:40:01,040 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46162 } on Server port: 9933 <---> 46162
+27 Oct 2020 | 09:40:41,066 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46162 }
+27 Oct 2020 | 09:41:24,610 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46882 } on Server port: 9933 <---> 46882
+27 Oct 2020 | 09:41:24,612 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46884 } on Server port: 9933 <---> 46884
+27 Oct 2020 | 09:41:55,601 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46884 }
+27 Oct 2020 | 09:42:00,883 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46882 }
+27 Oct 2020 | 09:42:00,887 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:47186 } on Server port: 9933 <---> 47186
+27 Oct 2020 | 09:42:40,910 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:47186 }
+27 Oct 2020 | 09:44:01,217 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48218 } on Server port: 9933 <---> 48218
+27 Oct 2020 | 09:44:01,218 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48220 } on Server port: 9933 <---> 48220
+27 Oct 2020 | 09:44:02,612 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48220 }
+27 Oct 2020 | 09:44:41,016 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48218 }
+27 Oct 2020 | 09:44:41,019 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48704 } on Server port: 9933 <---> 48704
+27 Oct 2020 | 09:45:21,042 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48704 }
+27 Oct 2020 | 09:50:56,209 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52072 } on Server port: 9933 <---> 52072
+27 Oct 2020 | 09:50:56,217 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52072 }
+27 Oct 2020 | 09:50:56,223 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 127.0.0.1:52074 } on Server port: 9933 <---> 52074
+27 Oct 2020 | 09:50:56,268 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:52074 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 09:50:56,278 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:52074 ) , asSpect: false
+27 Oct 2020 | 09:53:35,177 | WARN  | SFSWorker:Ext:3 | Extensions |     | {Admin}: {ExtensionManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+27 Oct 2020 | 09:53:36,493 | WARN  | SFSWorker:Ext:4 | Extensions |     | {Admin}: {ServletManager}: Module access prevented; remove file config/UploadsLock.txt to allow module usage 
+27 Oct 2020 | 09:55:00,873 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 09:55:00,873 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 09:55:00,874 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 10:17:04,408 | INFO  | SFSWorker:Ext:2 | Extensions |     | {Admin}: Restarting SmartFoxServer... 
+27 Oct 2020 | 10:17:04,414 | WARN  | SFSWorker:Ext:2 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER RESTARTING ***
+27 Oct 2020 | 10:17:04,421 | WARN  | SocketWriter-1 | bitswarm.core.SocketWriter |     | SocketWriter thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriter.run(SocketWriter.java:189)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+27 Oct 2020 | 10:17:04,422 | WARN  | SocketWriter-2 | bitswarm.core.SocketWriter |     | SocketWriter thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriter.run(SocketWriter.java:189)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+27 Oct 2020 | 10:17:04,423 | WARN  | SocketReader | bitswarm.core.SocketReader |     | Problems in SocketReader main loop: java.lang.InterruptedException: sleep interrupted, Thread: Thread[SocketReader,5,main]
+27 Oct 2020 | 10:17:04,422 | WARN  | SocketWriter-3 | bitswarm.core.SocketWriter |     | SocketWriter thread interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.smartfoxserver.bitswarm.core.SocketWriter.run(SocketWriter.java:189)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+27 Oct 2020 | 10:17:04,439 | WARN  | SocketReader | bitswarm.core.SocketReader |     | java.lang.InterruptedException: sleep interrupted
+	java.lang.Thread.sleep(Native Method)
+	com.smartfoxserver.bitswarm.core.SocketReader.run(SocketReader.java:173)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+
+27 Oct 2020 | 10:17:07,430 | INFO  | SFSWorker:Ext:2 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:52074 }
+27 Oct 2020 | 10:17:07,962 | INFO  | :::SFSRestarter::: | v2.util.SFSRestart |     | Process restarted: java.lang.UNIXProcess@9bb80dc
+27 Oct 2020 | 10:17:08,344 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 10:17:08,464 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 10:17:08,466 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 10:17:08,470 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 10:17:09,008 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 10:17:09,030 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 10:17:09,120 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 10:17:09,122 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 10:17:09,138 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 10:17:09,144 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 10:17:09,147 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 10:17:09,186 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 10:17:09,216 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:17:09,225 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:17:09,312 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 10:17:09,371 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 10:17:09,372 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 10:17:09,373 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 10:17:12,240 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 10:17:15,386 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:37402 } on Server port: 9933 <---> 37402
+27 Oct 2020 | 10:17:15,412 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: Admin login refused to user 'sfsadmin': invalid credentials
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.events.LoginEvtHandler.handleServerEvent(LoginEvtHandler.java:94)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:888)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 10:17:15,576 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:37402 }
+27 Oct 2020 | 10:17:24,461 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:37478 } on Server port: 9933 <---> 37478
+27 Oct 2020 | 10:17:24,481 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:37478 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:17:24,492 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:37478 ) , asSpect: false
+27 Oct 2020 | 10:17:42,034 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 10:17:42,552 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 10:17:42,577 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 10:17:42,646 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 10:17:42,647 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 10:17:42,663 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 10:17:42,670 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 10:17:42,673 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 10:17:42,701 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 10:17:42,732 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:17:42,740 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:17:42,787 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 10:17:42,837 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+27 Oct 2020 | 10:17:42,838 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 10:17:42,842 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 10:17:45,370 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 10:17:53,669 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 10:17:53,670 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 10:17:53,676 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 10:18:03,410 | INFO  | SFSWorker:Ext:2 | Extensions |     | {Admin}: Halting SmartFoxServer... 
+27 Oct 2020 | 10:18:03,411 | WARN  | SFSWorker:Ext:2 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER HALTING ***
+27 Oct 2020 | 10:18:03,412 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 3 seconds...
+27 Oct 2020 | 10:18:04,413 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 2 seconds...
+27 Oct 2020 | 10:18:05,415 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 1 seconds...
+27 Oct 2020 | 10:18:06,391 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:37478 }
+27 Oct 2020 | 10:18:06,393 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:37478 ) , SessionLen: 41913, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:18:06,418 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 10:18:06,418 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 10:18:06,456 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 10:18:54,860 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 10:18:55,375 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 10:18:55,397 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 10:18:55,464 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 10:18:55,465 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 10:18:55,480 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 10:18:55,486 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 10:18:55,489 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 10:18:55,517 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 10:18:55,546 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:18:55,554 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 10:18:55,615 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 10:18:55,667 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 10:18:55,668 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 10:18:55,668 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 10:18:58,372 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 10:19:31,279 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:38658 } on Server port: 9933 <---> 38658
+27 Oct 2020 | 10:19:31,286 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:38658 }
+27 Oct 2020 | 10:19:31,292 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:38660 } on Server port: 9933 <---> 38660
+27 Oct 2020 | 10:19:31,332 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:38660 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:19:31,341 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:38660 ) , asSpect: false
+27 Oct 2020 | 10:31:03,908 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44566 } on Server port: 9933 <---> 44566
+27 Oct 2020 | 10:31:03,916 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44566 }
+27 Oct 2020 | 10:31:03,943 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44568 } on Server port: 9933 <---> 44568
+27 Oct 2020 | 10:31:07,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44568 }
+27 Oct 2020 | 10:31:43,027 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44904 } on Server port: 9933 <---> 44904
+27 Oct 2020 | 10:31:43,034 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44904 }
+27 Oct 2020 | 10:31:43,076 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:44906 } on Server port: 9933 <---> 44906
+27 Oct 2020 | 10:31:43,268 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: first, Id: 1, Priv: 0, Sess: 127.0.0.1:44906 ) , Type: FlashPlayer:PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:31:43,298 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: first, Id: 1, Priv: 0, Sess: 127.0.0.1:44906 ) , asSpect: false
+27 Oct 2020 | 10:32:07,805 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45118 } on Server port: 9933 <---> 45118
+27 Oct 2020 | 10:32:07,811 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45118 }
+27 Oct 2020 | 10:32:07,839 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45120 } on Server port: 9933 <---> 45120
+27 Oct 2020 | 10:32:07,877 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: second, Id: 2, Priv: 0, Sess: 127.0.0.1:45120 ) , Type: FlashPlayer:PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:32:07,918 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: second, Id: 2, Priv: 0, Sess: 127.0.0.1:45120 ) , asSpect: false
+27 Oct 2020 | 10:37:35,894 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:45120 }
+27 Oct 2020 | 10:37:35,897 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: second, Id: 2, Priv: 0, Sess: 127.0.0.1:45120 ) , SessionLen: 328019, Type: FlashPlayer:PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:37:45,894 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:44906 }
+27 Oct 2020 | 10:37:45,895 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: first, Id: 1, Priv: 0, Sess: 127.0.0.1:44906 ) , SessionLen: 362627, Type: FlashPlayer:PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 10:55:55,680 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 10:55:55,681 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/2
+27 Oct 2020 | 10:55:55,681 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/3
+27 Oct 2020 | 11:55:01,168 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 11:55:01,172 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 11:55:01,173 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 12:50:48,366 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:57704 } on Server port: 9933 <---> 57704
+27 Oct 2020 | 12:50:48,372 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:57704 }
+27 Oct 2020 | 12:50:48,419 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:57706 } on Server port: 9933 <---> 57706
+27 Oct 2020 | 12:50:48,463 | INFO  | SFSWorker:Ext:4 | v2.scala.DefLI |     | User already logged in. Disconnecting previous instance : ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:38660 ) 
+27 Oct 2020 | 12:50:48,466 | INFO  | SFSWorker:Ext:4 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:38660 }
+27 Oct 2020 | 12:50:48,466 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:38660 ) , SessionLen: 9077134, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 12:50:50,470 | INFO  | pool-1-thread-1 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 3, Priv: 0, Sess: 127.0.0.1:57706 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 12:50:50,476 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 3, Priv: 0, Sess: 127.0.0.1:57706 ) , asSpect: false
+27 Oct 2020 | 12:55:01,168 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+27 Oct 2020 | 12:55:01,170 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 12:55:01,170 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+27 Oct 2020 | 13:01:44,690 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:57706 }
+27 Oct 2020 | 13:01:44,690 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 3, Priv: 0, Sess: 127.0.0.1:57706 ) , SessionLen: 654220, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:02:15,034 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35152 } on Server port: 9933 <---> 35152
+27 Oct 2020 | 13:02:15,040 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35152 }
+27 Oct 2020 | 13:02:15,082 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:35154 } on Server port: 9933 <---> 35154
+27 Oct 2020 | 13:02:15,124 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 4, Priv: 0, Sess: 127.0.0.1:35154 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:02:15,126 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 4, Priv: 0, Sess: 127.0.0.1:35154 ) , asSpect: false
+27 Oct 2020 | 13:03:53,069 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 13:03:53,070 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 13:03:53,076 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 13:04:04,290 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 13:04:04,886 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 13:04:04,909 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 13:04:04,993 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 13:04:04,994 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 13:04:05,009 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 13:04:05,015 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 13:04:05,018 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 13:04:05,045 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:04:05,074 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:04:05,083 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:04:05,132 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 13:04:05,199 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 13:04:05,200 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 13:04:05,201 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 13:04:08,321 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 13:04:29,376 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:36290 } on Server port: 9933 <---> 36290
+27 Oct 2020 | 13:04:29,386 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:36290 }
+27 Oct 2020 | 13:04:29,419 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:36292 } on Server port: 9933 <---> 36292
+27 Oct 2020 | 13:04:29,500 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:36292 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:04:29,512 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 1, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:36292 ) , asSpect: false
+27 Oct 2020 | 13:08:37,488 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSZoneManager |     | { Zone: myNewZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+27 Oct 2020 | 13:18:16,599 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:36292 }
+27 Oct 2020 | 13:18:16,600 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:36292 ) , SessionLen: 827100, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:18:29,412 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 13:18:29,413 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 13:18:29,418 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 13:18:35,732 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 13:18:36,259 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 13:18:36,282 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 13:18:36,359 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 13:18:36,360 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 13:18:36,376 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 13:18:36,382 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 13:18:36,385 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 13:18:36,416 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/myNewZone.zone.xml
+27 Oct 2020 | 13:18:36,446 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:18:36,476 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:18:36,477 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: myNewZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:18:36,478 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: myNewZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+27 Oct 2020 | 13:18:36,479 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: myNewZone }, [ Room: TheLobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:18:36,488 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:18:36,533 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 13:18:36,588 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 13:18:36,589 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 13:18:36,590 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 13:18:39,667 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 13:22:37,889 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45276 } on Server port: 9933 <---> 45276
+27 Oct 2020 | 13:22:37,896 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45276 }
+27 Oct 2020 | 13:22:37,932 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:45278 } on Server port: 9933 <---> 45278
+27 Oct 2020 | 13:22:37,984 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:45278 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:22:37,991 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:45278 ) , asSpect: false
+27 Oct 2020 | 13:29:50,162 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 13:29:50,687 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 13:29:50,707 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 13:29:50,779 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 13:29:50,780 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 13:29:50,795 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 13:29:50,801 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 13:29:50,803 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 13:29:50,831 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/myNewZone.zone.xml
+27 Oct 2020 | 13:29:50,856 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:29:50,884 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:29:50,885 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: myNewZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:29:50,886 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: myNewZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+27 Oct 2020 | 13:29:50,887 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: myNewZone }, [ Room: TheLobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:29:50,894 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:29:50,936 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 13:29:50,988 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 13:29:50,990 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 13:29:50,990 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 13:29:53,999 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 13:30:09,198 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48956 } on Server port: 9933 <---> 48956
+27 Oct 2020 | 13:30:09,206 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48956 }
+27 Oct 2020 | 13:30:09,228 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:48958 } on Server port: 9933 <---> 48958
+27 Oct 2020 | 13:30:09,333 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:48958 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:30:09,341 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:48958 ) , asSpect: false
+27 Oct 2020 | 13:55:51,000 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 13:55:51,001 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 13:55:51,001 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 13:55:51,001 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 13:56:14,018 | INFO  | SFSWorker:Ext:3 | Extensions |     | {Admin}: Halting SmartFoxServer... 
+27 Oct 2020 | 13:56:14,022 | WARN  | SFSWorker:Ext:3 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER HALTING ***
+27 Oct 2020 | 13:56:14,027 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 3 seconds...
+27 Oct 2020 | 13:56:15,033 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 2 seconds...
+27 Oct 2020 | 13:56:16,034 | WARN  | Thread-10 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 1 seconds...
+27 Oct 2020 | 13:56:16,453 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:48958 }
+27 Oct 2020 | 13:56:16,459 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:48958 ) , SessionLen: 1567126, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:56:17,043 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 13:56:17,045 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 13:56:17,059 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 13:56:51,113 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 13:56:51,751 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 13:56:51,788 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 13:56:51,873 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 13:56:51,875 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 13:56:51,893 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 13:56:51,900 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 13:56:51,903 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 13:56:51,939 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/myNewZone.zone.xml
+27 Oct 2020 | 13:56:51,969 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:56:52,005 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:56:52,006 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: myNewZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 13:56:52,007 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: myNewZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+27 Oct 2020 | 13:56:52,008 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: myNewZone }, [ Room: TheLobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:56:52,019 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 13:56:52,070 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 13:56:52,140 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 13:56:52,146 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 13:56:52,147 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 13:56:55,360 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 13:57:18,862 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:34142 } on Server port: 9933 <---> 34142
+27 Oct 2020 | 13:57:18,873 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:34142 }
+27 Oct 2020 | 13:57:18,906 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:34144 } on Server port: 9933 <---> 34144
+27 Oct 2020 | 13:57:18,972 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:34144 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 13:57:18,981 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:34144 ) , asSpect: false
+27 Oct 2020 | 13:57:52,168 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 13:57:52,169 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 13:57:52,169 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 13:57:52,169 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 16:55:44,369 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+27 Oct 2020 | 16:55:44,371 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 16:55:44,371 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 16:55:44,371 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+27 Oct 2020 | 17:13:46,000 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:34144 }
+27 Oct 2020 | 17:13:46,004 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:34144 ) , SessionLen: 11787031, Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 17:13:57,790 | INFO  | Thread-2 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 17:13:57,790 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 17:13:57,802 | INFO  | Thread-3 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 Oct 2020 | 17:14:50,123 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 Oct 2020 | 17:14:50,705 | INFO  | main | v2.core.SFSEventManager |     | SFSEventManager initialized
+27 Oct 2020 | 17:14:50,729 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "/tmp/vfs_cache" as temporary files store.
+27 Oct 2020 | 17:14:50,821 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 Oct 2020 | 17:14:50,822 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 Oct 2020 | 17:14:50,839 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 Oct 2020 | 17:14:50,846 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 Oct 2020 | 17:14:50,849 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/BasicExamples.zone.xml
+27 Oct 2020 | 17:14:50,882 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones/myNewZone.zone.xml
+27 Oct 2020 | 17:14:50,910 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 17:14:50,941 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 17:14:50,943 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: myNewZone 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 Oct 2020 | 17:14:50,944 | WARN  | main | entities.managers.SFSZoneManager |     | { Zone: myNewZone } - Could not override maxUserIdleTime. The provided value (120 sec) is < sessionMaxIdleTime (300 sec). You must provide a value > sessionMaxIdleTime. Please double check your configuration.
+27 Oct 2020 | 17:14:50,945 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: myNewZone }, [ Room: TheLobby, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 17:14:50,954 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+27 Oct 2020 | 17:14:51,006 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 Oct 2020 | 17:14:51,072 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 Oct 2020 | 17:14:51,074 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.14.0 ] 
+
+27 Oct 2020 | 17:14:51,074 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.14.0) READY!
+27 Oct 2020 | 17:14:53,996 | INFO  | main | tomcat.bluebox.BBSessionFilter |     | BlueBox Service (4.0.0) READY.
+27 Oct 2020 | 17:15:09,847 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60976 } on Server port: 9933 <---> 60976
+27 Oct 2020 | 17:15:09,855 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60976 }
+27 Oct 2020 | 17:15:09,877 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60978 } on Server port: 9933 <---> 60978
+27 Oct 2020 | 17:15:09,993 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60978 ) , Type: Flash PlugIn:LNX 32,0,0,445
+27 Oct 2020 | 17:15:10,003 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60978 ) , asSpect: false
+27 Oct 2020 | 17:55:51,090 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 17:55:51,093 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 17:55:51,093 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 17:55:51,094 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 18:55:33,554 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+27 Oct 2020 | 18:55:33,556 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 18:55:33,556 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 18:55:33,557 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+27 Oct 2020 | 20:55:07,506 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+27 Oct 2020 | 20:55:07,508 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 20:55:07,508 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 20:55:07,508 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+27 Oct 2020 | 21:55:07,506 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+27 Oct 2020 | 21:55:07,508 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+27 Oct 2020 | 21:55:07,508 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: myNewZone }, CCU: 0/0
+27 Oct 2020 | 21:55:07,509 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
+27 Oct 2020 | 22:09:34,459 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 Oct 2020 | 22:09:34,465 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 Oct 2020 | 22:09:34,474 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
